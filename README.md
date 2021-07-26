@@ -1,4 +1,4 @@
-# Autonomous Drone Demo - Mask and Phone detection
+# Autonomous Drone Demo - Mask and Phone Detection
 <br>
 
 This gif is pretty large and may lack until fully loaded, be patient :)
