@@ -1,7 +1,7 @@
 # Autonomous Drone Demo - Mask and Phone detection
 <br>
 
-This gif is pretty large and may lack until fully loaded, be patient:)
+This gif is pretty large and may lack until fully loaded, be patient :)
 
 <p align="center">
   <img src="./readme_res/demo.gif" alt="Drawing"/>
@@ -15,14 +15,9 @@ The program that controls the drone is essentially capable of 3 things:
 
 3. Detect faces and cell phones which could be used to check COVID-19 vaccines. (small cutouts in the right panel)
 
-  <br>
-  <br>
-
   
 
-  **Note**: 
-
-  <br>
+  **Note**: <br>
   I don't suggest that this is ethically or practically feasible to implement in reality. This was simply a learning experience and a fun project, nothing more.
 
 
@@ -207,13 +202,9 @@ https://www.freepik.com/free-photo/medium-shot-man-holding-bag-phone_11380300.ht
 
 
 1. The unprocessed image gets captured by the drone's camera.
-<br>
 2. The captured image than gets send through the 2 YOLO5 models and annotated accordingly
-<br>
 3. Any face and/or cell phones present in the image get displayed alongside some general information about the drone (e.g. battery and height) and its current state (e.g. if its searching and which command it received last).
-<br>
 4. Isn't shown here, but that would be the movement of the drone itself according to the data obtained in the previous 3 steps
-<br>
 <br>
 
 ### Code
