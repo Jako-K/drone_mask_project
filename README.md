@@ -162,7 +162,7 @@ Ultralytic (the creators of the YOLO implementation used in the project) has mad
 
 <br>
 
-More specifically, Ultralytic has made a `train.py` which work sort of like a command line API. I changed some hyperparameters, but other than that simply used their `train.py` to finetune their smallest pretrained YOLO-model: `yolov5s`. I trained a few models (5 in total) with different hyperparameters, but the results were almost identical, which made be conclude that there in all likelihood weren't a lot to gain from hyperparameter tuning. Weights for the final model can be found at `./main/yolo_mask_model.pt`
+More specifically, Ultralytic has made a `train.py` which work sort of like a command line API. I changed some hyperparameters, but other than that simply used their `train.py` to finetune their largest pretrained YOLO-model: `yolov5l`. I trained a fair few models with different hyperparameters, but the results were almost identical, which made be conclude that there in all likelihood weren't a lot to gain from hyperparameter tuning. Weights for the final model can be found at `./main/yolo_mask_model.pt`
 <br><br>
 
 ### Training with Weights and Biases
@@ -181,7 +181,8 @@ More specifically, Ultralytic has made a `train.py` which work sort of like a co
 ### Predictions by the final model
 The final model performs very well and is quite robust. I have only seen few classification mistakes while playing around with it, and the bounding box placement seems very reasonable as well. Funny enough, the most troubles I have had with the final model, has been with the pretrained YOLO5 model. The only real thing this model needs to do is to detect cell phones, but it's struggling at times. I don't know if it's because the COCO dataset is quite old and many of the annotated phones in it is far from a modern smart phone. Or if it's a implementation mistake on my part, but it is differently not as robust as I had expected. With that said, it still performs quite well and definitely do better than the one I trained on the COCO-MHD combined dataset.
 <br><br>
-Example
+Example:
+
 <p align="center">
     <img src="./readme_res/final_model_pred.png" alt="Drawing"/>
 </p>
@@ -190,8 +191,6 @@ https://www.freepik.com/free-photo/woman-outdoors-wearing-mask-using-mobile-phon
 
 ## 4.) Drone logic and visualizations
 This entire section can be summed up quite nicely with a single image:
-<br>
-<br>
 <p align="center">
     <img src="./readme_res/main_viz.png" alt="Drawing"/>
 </p>
