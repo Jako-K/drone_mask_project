@@ -1,6 +1,7 @@
-# Autonomous Drone Demo - 
-# Mask and Phone detection
+# Autonomous Drone Demo - Mask and Phone detection
 <br>
+
+This gif is pretty large and may lack until fully loaded, be patient:)
 
 <p align="center">
   <img src="./readme_res/demo.gif" alt="Drawing"/>
@@ -9,14 +10,20 @@
 The program that controls the drone is essentially capable of 3 things:
 <br>
 1. Orient the drone towards people it detects (indicated by the red arrow) 
-<br>
+
 2. Determine if the people it detects are wearing appropriate facial masks (colored boxes)
-<br>
-3. Detect faces and cell phones which could be used to check COVID-19 vaccines. (small cutouts in the right panel)<br>
-<br>
-**Note**: 
-<br>
-I don't suggest that this is ethically or practically feasible to implement in reality. This was simply a learning experience and a fun project, nothing more.
+
+3. Detect faces and cell phones which could be used to check COVID-19 vaccines. (small cutouts in the right panel)
+
+  <br>
+  <br>
+
+  
+
+  **Note**: 
+
+  <br>
+  I don't suggest that this is ethically or practically feasible to implement in reality. This was simply a learning experience and a fun project, nothing more.
 
 
 # Acknowledgement
@@ -45,11 +52,7 @@ I've learned a lot about machine learning from projects that I've completed duri
     1.) Datasets from scratch / data preprocessing
     2.) Getting models ready for production
 
-I felt like the best way to get some experience within these 2 areas was to make a non-trivial project were these 2 areas were the main focus. 
-
-<br>
-
-Area 1.) I've previously finished a project were I made the dataset from scratch [see here](https://github.com/Jako-K/set_finder_project) and therefor through I would focus on the data preprocessing. I tried to do this by using [Humansintheloop mask dataset](https://humansintheloop.org/resources/datasets/mask-dataset-download), clean it and than combine it with a subset of the [COCO dataset](https://cocodataset.org/#home).
+I felt like the best way to get some experience within these 2 areas was to make a non-trivial project were these 2 areas were the main focus. <br>Area 1.) I've previously finished a project were I made the dataset from scratch [see here](https://github.com/Jako-K/set_finder_project) and therefor through I would focus on the data preprocessing. I tried to do this by using [Humansintheloop mask dataset](https://humansintheloop.org/resources/datasets/mask-dataset-download), clean it and than combine it with a subset of the [COCO dataset](https://cocodataset.org/#home).
 <br>
 Area 2.) Since I have never really worked with anything that had to interact directly with the real world (i.e. a robot of sorts) I thought doing something along those lines would be a good learning experience. And so ended up making a project around the relatively inexpensive [Tello Drone](https://www.ryzerobotics.com/tello)
 
@@ -200,6 +203,8 @@ This entire section can be summed up quite nicely with a single image:
 https://www.freepik.com/free-photo/medium-shot-man-holding-bag-phone_11380300.htm
 <br>
 <br>
+
+
 
 1. The unprocessed image gets captured by the drone's camera.
 <br>
