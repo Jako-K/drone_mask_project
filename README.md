@@ -1,4 +1,13 @@
+`Machine Learning`, `Python`, `Pandas`, `Drone`, `Pytorch`,  `Object Detection`,  `Classification`, `Data Cleaning`, `Data Visualizations`, `YOLO5`, `Neural Network`, `Weights & Biases`
+
 # Autonomous Drone Demo - Mask and Phone Detection
+
+<br>
+
+<p align="center">
+  <img src="./readme_res/demo.png" alt="Drawing"/>
+</p>
+
 <br>
 
 This gif is pretty large and may lack until fully loaded, be patient :)
