@@ -10,11 +10,7 @@
 
 <br>
 
-This gif is pretty large and may lack until fully loaded, be patient :)
-
-<p align="center">
-  <img src="./readme_res/demo.gif" alt="Drawing"/>
-</p>
+https://user-images.githubusercontent.com/78201238/130926536-658fb656-f1f4-4587-af9d-b8101f6ebed9.mp4
 
 The program that controls the drone is essentially capable of 3 things:
 <br>
